@@ -1,3 +1,5 @@
+<?php
+
 //Add hooks into WP, to have our function called. Sort of like events
 //https://developer.wordpress.org/reference/hooks/post_row_actions/
 add_filter('post_row_actions', 'edit_row_actions', 10, 1);
